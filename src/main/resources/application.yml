@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/realtime_todolist
+    username: root
+    password: password
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+ABLY_API_KEY: eyJ0eXAiOiJKV1QiLCJ2ZXJzaW9uIjoxLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJkZmFmYmZiNi03MWMwLTRjMGQtOWJmOS1mNTljMmMxYzE3MGUiLCJpc3MiOiJhYmx5LmNvbSIsImlhdCI6MTY2NTc2NjEwOCwic3ViIjozMDI3MH0.FH8NVfkQnrCcntCOWfGEXwzm1mgVSbJu1f2xKFWNMMA
